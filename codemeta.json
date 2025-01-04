@@ -14,7 +14,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.4.1 (2024-06-14 ucrt)",
+  "runtimePlatform": "R version 4.4.2 (2024-10-31)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -59,7 +59,7 @@
       "@type": "SoftwareApplication",
       "identifier": "covr",
       "name": "covr",
-      "version": ">= 3.6.2",
+      "version": ">= 3.6.4",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -72,13 +72,13 @@
       "@type": "SoftwareApplication",
       "identifier": "datasets",
       "name": "datasets",
-      "version": ">= 4.2.0"
+      "version": ">= 4.3"
     },
     {
       "@type": "SoftwareApplication",
       "identifier": "knitr",
       "name": "knitr",
-      "version": ">= 1.43",
+      "version": ">= 1.49",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -104,7 +104,7 @@
       "@type": "SoftwareApplication",
       "identifier": "readr",
       "name": "readr",
-      "version": ">= 2.1.4",
+      "version": ">= 2.1.5",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -117,7 +117,7 @@
       "@type": "SoftwareApplication",
       "identifier": "rlang",
       "name": "rlang",
-      "version": ">= 1.1.1",
+      "version": ">= 1.1.4",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -130,7 +130,7 @@
       "@type": "SoftwareApplication",
       "identifier": "rmarkdown",
       "name": "rmarkdown",
-      "version": ">= 2.23",
+      "version": ">= 2.29",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -143,7 +143,7 @@
       "@type": "SoftwareApplication",
       "identifier": "spelling",
       "name": "spelling",
-      "version": ">= 2.2.1",
+      "version": ">= 2.3.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -156,13 +156,13 @@
       "@type": "SoftwareApplication",
       "identifier": "stats",
       "name": "stats",
-      "version": ">= 4.2.0"
+      "version": ">= 4.3"
     },
     {
       "@type": "SoftwareApplication",
       "identifier": "testthat",
       "name": "testthat",
-      "version": ">= 3.1.10",
+      "version": ">= 3.2.2",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -175,7 +175,7 @@
       "@type": "SoftwareApplication",
       "identifier": "usethis",
       "name": "usethis",
-      "version": ">= 2.2.2",
+      "version": ">= 3.1.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -188,7 +188,7 @@
       "@type": "SoftwareApplication",
       "identifier": "utils",
       "name": "utils",
-      "version": ">= 4.2.0"
+      "version": ">= 4.3"
     }
   ],
   "softwareRequirements": {
@@ -196,13 +196,13 @@
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
-      "version": ">= 4.2"
+      "version": ">= 4.3"
     },
     "2": {
       "@type": "SoftwareApplication",
       "identifier": "checkmate",
       "name": "checkmate",
-      "version": ">= 2.2.0",
+      "version": ">= 2.3.2",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -215,7 +215,7 @@
       "@type": "SoftwareApplication",
       "identifier": "cli",
       "name": "cli",
-      "version": ">= 3.6.1",
+      "version": ">= 3.6.3",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -228,7 +228,7 @@
       "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
-      "version": ">= 1.1.2",
+      "version": ">= 1.1.4",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -254,7 +254,7 @@
       "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
-      "version": ">= 1.0.3",
+      "version": ">= 1.0.4",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -267,7 +267,7 @@
       "@type": "SoftwareApplication",
       "identifier": "lubridate",
       "name": "lubridate",
-      "version": ">= 1.9.2",
+      "version": ">= 1.9.4",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -278,11 +278,11 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "628.069KB",
+  "fileSize": "616.925KB",
   "citation": [
     {
       "@type": "CreativeWork",
-      "datePublished": "2024",
+      "datePublished": "2025",
       "author": [
         {
           "@type": "Person",
@@ -293,8 +293,10 @@
         }
       ],
       "name": "{mctq}: Munich ChronoType Questionnaire tools",
-      "url": "https://docs.ropensci.org/mctq/",
-      "description": "R package version 0.3.2.9001"
+      "identifier": "10.32614/CRAN.package.mctq",
+      "description": "R package version 0.3.2.9001",
+      "@id": "https://doi.org/10.32614/CRAN.package.mctq",
+      "sameAs": "https://doi.org/10.32614/CRAN.package.mctq"
     }
   ],
   "releaseNotes": "https://github.com/ropensci/mctq/blob/master/NEWS.md",
@@ -306,5 +308,5 @@
     "url": "https://github.com/ropensci/software-review/issues/434",
     "provider": "https://ropensci.org"
   },
-  "keywords": ["chronobiology", "mctq", "sleep", "r-package", "peer-reviewed", "r", "rstats", "chronotype"]
+  "keywords": ["chronobiology", "mctq", "sleep", "r-package", "peer-reviewed", "r", "chronotype", "circadian-phenotype", "circadian-rhythm", "entrainment", "biological-rhythm", "temporal-phenotype"]
 }

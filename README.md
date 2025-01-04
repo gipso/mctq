@@ -1,31 +1,27 @@
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # mctq <a href = "https://docs.ropensci.org/mctq/"><img src = "man/figures/logo.png" align="right" height="139" /></a>
 
 <!-- badges: start -->
-
 [![Status at rOpenSci Software Peer
 Review](https://badges.ropensci.org/434_status.svg)](https://github.com/ropensci/software-review/issues/434)
 [![Repo
 status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![CRAN
-status](https://www.r-pkg.org/badges/version/mctq)](https://cran.r-project.org/package=mctq)
+status](https://www.r-pkg.org/badges/version/mctq.png)](https://cran.r-project.org/package=mctq)
 [![CRAN
 DOI](http://img.shields.io/badge/DOI-10.32614/CRAN.package.mctq-1284C5.svg)](https://doi.org/10.32614/CRAN.package.mctq)
 [![CRAN
-downloads](https://cranlogs.r-pkg.org/badges/grand-total/mctq)](https://cran.r-project.org/package=mctq)
-[![R-universe](https://ropensci.r-universe.dev/badges/mctq)](https://ropensci.r-universe.dev)
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/mctq.png)](https://danielvartan.shinyapps.io/cran-logs/?package=mctq)
+[![R-universe](https://ropensci.r-universe.dev/badges/mctq.png)](https://ropensci.r-universe.dev)
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
 [![R-CMD-check](https://github.com/ropensci/mctq/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/mctq/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/ropensci/mctq/branch/main/graph/badge.svg)](https://app.codecov.io/gh/ropensci/mctq?branch=main)
 [![License:
-MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+MIT](https://img.shields.io/badge/license-MIT-green.png)](https://choosealicense.com/licenses/mit/)
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green)](https://fair-software.eu)
 [![CII Best
-Practices](https://bestpractices.coreinfrastructure.org/projects/6244/badge)](https://bestpractices.coreinfrastructure.org/projects/6244)
+Practices](https://bestpractices.coreinfrastructure.org/projects/6244/badge.png)](https://bestpractices.coreinfrastructure.org/projects/6244)
 <!-- badges: end -->
 
 ## Overview
@@ -139,9 +135,10 @@ sprep_w <- c(hms::parse_hm("23:45"), hms::parse_hm("02:15"))
 slat_w <- c(lubridate::dminutes(30), lubridate::dminutes(90))
 # Local time of sleep onset on workdays
 so(sprep_w, slat_w)
-#> 00:15:00
-#> 03:45:00
 ```
+
+    00:15:00
+    03:45:00
 
 ### Combining workdays and work-free days variables
 
@@ -169,8 +166,9 @@ msw <- c(hms::parse_hm("02:05"), hms::parse_hm("04:05"))
 msf <- c(hms::parse_hm("23:05"), hms::parse_hm("08:30"))
 # Relative social jetlag
 sjl_rel(msw, msf)
-#> [1] "-10800s (~-3 hours)"  "15900s (~4.42 hours)"
 ```
+
+    [1] "-10800s (~-3 hours)"  "15900s (~4.42 hours)"
 
 ### Utilities
 
@@ -190,23 +188,24 @@ open-source R package. Find the citation below.
 
 ``` r
 citation("mctq")
-#> To cite {mctq} in publications use:
-#> 
-#>   Vartanian, D. (2024). {mctq}: Munich ChronoType Questionnaire tools
-#>   (Version 0.3.2.9001) [Computer software - R package]. CRAN; rOpenSci.
-#>   https://doi.org/10.32614/CRAN.package.mctq
-#> 
-#> A BibTeX entry for LaTeX users is
-#> 
-#>   @Misc{,
-#>     title = {{mctq}: Munich ChronoType Questionnaire tools},
-#>     author = {Daniel Vartanian},
-#>     year = {2024},
-#>     publisher = {CRAN; rOpenSci},
-#>     doi = {10.32614/CRAN.package.mctq},
-#>     note = {R package version 0.3.2.9001},
-#>   }
 ```
+
+    To cite {mctq} in publications use:
+
+      Vartanian, D. (2025). {mctq}: Munich ChronoType Questionnaire tools
+      (Version 0.3.2.9001) [Computer software - R package]. CRAN; rOpenSci.
+      https://doi.org/10.32614/CRAN.package.mctq
+
+    A BibTeX entry for LaTeX users is
+
+      @Misc{,
+        title = {{mctq}: Munich ChronoType Questionnaire tools},
+        author = {Daniel Vartanian},
+        year = {2025},
+        publisher = {CRAN; rOpenSci},
+        doi = {10.32614/CRAN.package.mctq},
+        note = {R package version 0.3.2.9001},
+      }
 
 ## Contributing
 

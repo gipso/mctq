@@ -1,5 +1,6 @@
 ^\.github$
 ^\.lintr$
+^\.quarto$
 ^\.Rproj\.user$
 ^_quarto\.yml$
 ^_pkgdown\.yml$

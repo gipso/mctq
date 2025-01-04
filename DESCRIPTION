@@ -53,27 +53,27 @@ License: MIT + file LICENSE
 URL: https://docs.ropensci.org/mctq/, https://github.com/ropensci/mctq/
 BugReports: https://github.com/ropensci/mctq/issues/
 Depends:
-    R (>= 4.2)
+    R (>= 4.3)
 Imports:
-    checkmate (>= 2.2.0),
-    cli (>= 3.6.1),
-    dplyr (>= 1.1.2),
+    checkmate (>= 2.3.2),
+    cli (>= 3.6.3),
+    dplyr (>= 1.1.4),
     hms (>= 1.1.3),
-    lifecycle (>= 1.0.3),
-    lubridate (>= 1.9.2)
+    lifecycle (>= 1.0.4),
+    lubridate (>= 1.9.4)
 Suggests:
-    covr (>= 3.6.2),
-    datasets (>= 4.2.0),
-    knitr (>= 1.43),
+    covr (>= 3.6.4),
+    datasets (>= 4.3),
+    knitr (>= 1.49),
     mockr (>= 0.2.1),
-    readr (>= 2.1.4),
-    rlang (>= 1.1.1),
-    rmarkdown (>= 2.23),
-    spelling (>= 2.2.1),
-    stats (>= 4.2.0),
-    testthat (>= 3.1.10),
-    usethis (>= 2.2.2),
-    utils (>= 4.2.0)
+    readr (>= 2.1.5),
+    rlang (>= 1.1.4),
+    rmarkdown (>= 2.29),
+    spelling (>= 2.3.1),
+    stats (>= 4.3),
+    testthat (>= 3.2.2),
+    usethis (>= 3.1.0),
+    utils (>= 4.3)
 VignetteBuilder: 
     knitr
 Config/testthat/edition: 3
@@ -81,4 +81,4 @@ Encoding: UTF-8
 Language: en-US
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2

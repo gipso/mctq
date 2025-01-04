@@ -14,13 +14,13 @@ utils::bibentry(
             comment = c(ORCID = "0000-0001-7782-759X")
             )
         ),
-    year = "2024",
+    year = "2025",
     publisher = "CRAN; rOpenSci",
     doi = "10.32614/CRAN.package.mctq",
     note = "R package version 0.3.2.9001",
     textVersion = paste0(
         "Vartanian, D.", " ",
-        "(2024)",  ". ",
+        "(2025)",  ". ",
         "{mctq}:", " ",
         "Munich ChronoType Questionnaire tools", " ",
         "(Version 0.3.2.9001) [Computer software - R package]", ". ",

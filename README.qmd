@@ -1,28 +1,18 @@
+# mctq <a href = "https://docs.ropensci.org/mctq/"><img src = "man/figures/logo.png" align="right" height="139" /></a>
+
 ```{r}
 #| label: setup
 #| include: false
 
-library(beepr)
-library(cffr)
-library(codemetar)
 library(mctq)
-library(groomr) # https://github.com/danielvartan/groomr
-library(here)
-library(hms)
-library(lubridate)
-library(readr)
-library(rutils) # https://github.com/danielvartan/rutils
-library(stringr)
 ```
-
-# mctq <a href = "https://docs.ropensci.org/mctq/"><img src = "man/figures/logo.png" align="right" height="139" /></a>
 
 <!-- badges: start -->
 [![Status at rOpenSci Software Peer Review](https://badges.ropensci.org/434_status.svg)](https://github.com/ropensci/software-review/issues/434)
 [![Repo status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![CRAN status](https://www.r-pkg.org/badges/version/mctq)](https://cran.r-project.org/package=mctq)
 [![CRAN DOI](http://img.shields.io/badge/DOI-10.32614/CRAN.package.mctq-1284C5.svg)](https://doi.org/10.32614/CRAN.package.mctq)
-[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/mctq)](https://cran.r-project.org/package=mctq)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/mctq)](https://danielvartan.shinyapps.io/cran-logs/?package=mctq)
 [![R-universe](https://ropensci.r-universe.dev/badges/mctq)](https://ropensci.r-universe.dev)
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
 [![R-CMD-check](https://github.com/ropensci/mctq/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/mctq/actions)

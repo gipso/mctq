@@ -1,10 +1,10 @@
 # library(beepr)
 # library(cffr)
 # library(codemetar)
-# library(groomr) # https://github.com/danielvartan/groomr
+# library(groomr) # github.com/danielvartan/groomr
 # library(here)
 # library(readr)
-# library(rutils) # https://github.com/danielvartan/rutils
+# library(rutils) # github.com/danielvartan/rutils
 # library(stringr)
 
 # Remove empty lines from `README.md` -----
