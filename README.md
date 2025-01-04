@@ -6,22 +6,22 @@ Review](https://badges.ropensci.org/434_status.svg)](https://github.com/ropensci
 [![Repo
 status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![CRAN
-status](https://www.r-pkg.org/badges/version/mctq.png)](https://cran.r-project.org/package=mctq)
+status](https://www.r-pkg.org/badges/version/mctq)](https://cran.r-project.org/package=mctq)
 [![CRAN
 DOI](http://img.shields.io/badge/DOI-10.32614/CRAN.package.mctq-1284C5.svg)](https://doi.org/10.32614/CRAN.package.mctq)
 [![CRAN
-downloads](https://cranlogs.r-pkg.org/badges/grand-total/mctq.png)](https://danielvartan.shinyapps.io/cran-logs/?package=mctq)
-[![R-universe](https://ropensci.r-universe.dev/badges/mctq.png)](https://ropensci.r-universe.dev)
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/mctq)](https://danielvartan.shinyapps.io/cran-logs/?package=mctq)
+[![R-universe](https://ropensci.r-universe.dev/badges/mctq)](https://ropensci.r-universe.dev)
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
 [![R-CMD-check](https://github.com/ropensci/mctq/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/mctq/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/ropensci/mctq/branch/main/graph/badge.svg)](https://app.codecov.io/gh/ropensci/mctq?branch=main)
 [![License:
-MIT](https://img.shields.io/badge/license-MIT-green.png)](https://choosealicense.com/licenses/mit/)
+MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green)](https://fair-software.eu)
 [![CII Best
-Practices](https://bestpractices.coreinfrastructure.org/projects/6244/badge.png)](https://bestpractices.coreinfrastructure.org/projects/6244)
+Practices](https://bestpractices.coreinfrastructure.org/projects/6244/badge)](https://bestpractices.coreinfrastructure.org/projects/6244)
 <!-- badges: end -->
 
 ## Overview
